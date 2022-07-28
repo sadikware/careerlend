@@ -21,7 +21,8 @@ p {
   background-color: #f4fafd;
 }
 
-.overview-image img {
+.overview-image img,
+.course-banner {
   object-fit: cover;
 }
 
