@@ -1,4 +1,21 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
 .carousel-item img {
   height: 60vh;
   object-fit: cover;
 }
+
+.overview {
+  background-color: #f4fafd;
+}
+
+/* .carousel-image {
+  fill-opacity: 50%;
+} */

@@ -4,6 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>CareerLend</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -72,7 +79,7 @@
               <div class="carousel-item active">
                 <img
                   src="./images/cover/cover-1.png"
-                  class="d-block w-100 img-fluid"
+                  class="d-block w-100 img-fluid carousel-image"
                   alt="..."
                 />
                 <div
@@ -172,10 +179,11 @@
       <section class="m-5">
         <div class="container">
           <div class="courses-heading text-center my-5">
-            <h2>Discover Our Popular Courses</h2>
+            <h1>Discover Our Popular Courses</h1>
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+              It is a long established fact that a reader will be <br />
+              distracted by the readable content of a page when looking at its
+              layout.
             </p>
           </div>
           <div class="courses-card">
@@ -192,7 +200,9 @@
                     </div>
                     <div class="col-md-8 col-12 order-2">
                       <div class="card-body">
-                        <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                        <h5 class="card-title fw-bold">
+                          Fundamental Of UI/UX Design
+                        </h5>
                         <p class="card-text">
                           This course can be an ideal course for you to enrich
                           your online career.Because we create courses by
@@ -218,7 +228,9 @@
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Javascript Basic to advanced</h5>
+                        <h5 class="card-title fw-bold">
+                          Javascript Basic to advanced
+                        </h5>
                         <p class="card-text">
                           This course can be an ideal course for you to enrich
                           your online career.Because we create courses by
@@ -244,7 +256,9 @@
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Fullstack Web Development</h5>
+                        <h5 class="card-title fw-bold">
+                          Fullstack Web Development
+                        </h5>
                         <p class="card-text">
                           This course can be an ideal course for you to enrich
                           your online career.Because we create courses by
@@ -270,7 +284,7 @@
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Digital Marketing</h5>
+                        <h5 class="card-title fw-bold">Digital Marketing</h5>
                         <p class="card-text">
                           This course can be an ideal course for you to enrich
                           your online career.Because we create courses by
@@ -296,7 +310,9 @@
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Photography Basic Rules</h5>
+                        <h5 class="card-title fw-bold">
+                          Photography Basic Rules
+                        </h5>
                         <p class="card-text">
                           This course can be an ideal course for you to enrich
                           your online career.Because we create courses by
@@ -322,7 +338,7 @@
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
-                        <h5 class="card-title">Motion Graphics</h5>
+                        <h5 class="card-title fw-bold">Motion Graphics</h5>
                         <p class="card-text">
                           This course can be an ideal course for you to enrich
                           your online career.Because we create courses by
@@ -349,16 +365,22 @@
 
       <!-- Course Overview Section Start -->
       <section class="course-overview my-5">
-        <div class="container bg-primary">
+        <div class="container overview">
           <div class="row">
             <div class="col-md">
               <div class="h-100">
-                <img class="img-fluid" src="./images/working.png" alt="" />
+                <img
+                  class="img-fluid h-100"
+                  src="./images/working.png"
+                  alt=""
+                />
               </div>
             </div>
             <div class="col-md">
-              <div class="text-white p-5">
-                <h2>Explore The elearning Institute</h2>
+              <div
+                class="p-5 h-100 d-flex flex-column justify-content-center gap-4"
+              >
+                <h1>Explore The elearning Institute</h1>
                 <p>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
@@ -385,9 +407,11 @@
                     <p>Rating & Review</p>
                   </div>
                 </div>
-                <a href="" class="btn btn-info text-white px-3 py-2"
-                  >Read More</a
-                >
+                <div>
+                  <a href="" class="btn btn-info text-white px-3 py-2"
+                    >Read More</a
+                  >
+                </div>
               </div>
             </div>
           </div>
@@ -402,10 +426,11 @@
             class="bg-info d-lg-flex justify-content-between align-items-center p-5 rounded-2 text-center text-lg-start"
           >
             <div class="text-white">
-              <h2>Ready to join?</h2>
+              <h1>Ready to join?</h1>
               <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
+                It is a long established fact that a reader will be <br />
+                distracted by the readable content of a page when looking at its
+                layout.
               </p>
             </div>
             <div>
@@ -425,11 +450,14 @@
       <!-- Successful Students Section Start -->
       <section class="successful-students my-5">
         <div class="container">
-          <div class="successful-students-header my-5">
-            <h2>Meet Our Successfull Students</h2>
+          <div
+            class="successful-students-header my-5 text-center text-md-start"
+          >
+            <h1>Meet Our Successful Students</h1>
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+              It is a long established fact that a reader will be <br />
+              distracted by the readable content of a page when looking at its
+              layout.
             </p>
           </div>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
@@ -500,10 +528,11 @@
       <section class="faq my-5">
         <div class="container">
           <div class="faq-header text-center my-5">
-            <h2>Frequently Asked Questions</h2>
+            <h1>Frequently Asked Questions</h1>
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+              It is a long established fact that a reader will be distracted
+              <br />
+              by the readable content of a page when looking at its layout.
             </p>
           </div>
           <div
@@ -520,7 +549,7 @@
                   aria-expanded="true"
                   aria-controls="panelsStayOpen-collapseOne"
                 >
-                  Accordion Item #1
+                  What is the difference between Flex and Flexbox in CSS?
                 </button>
               </h2>
               <div
@@ -528,17 +557,7 @@
                 class="accordion-collapse collapse show"
                 aria-labelledby="panelsStayOpen-headingOne"
               >
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
+                <div class="accordion-body">11111111</div>
               </div>
             </div>
             <div class="accordion-item">
@@ -551,7 +570,7 @@
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseTwo"
                 >
-                  Accordion Item #2
+                  What is the difference between Bootstrap and Tailwind CSS?
                 </button>
               </h2>
               <div
@@ -559,17 +578,7 @@
                 class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingTwo"
               >
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
+                <div class="accordion-body">2222222222222</div>
               </div>
             </div>
             <div class="accordion-item">
@@ -582,7 +591,7 @@
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseThree"
                 >
-                  Accordion Item #3
+                  What are semantic tags in HTML?
                 </button>
               </h2>
               <div
@@ -590,17 +599,7 @@
                 class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingThree"
               >
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
+                <div class="accordion-body">33333333333333333</div>
               </div>
             </div>
             <div class="accordion-item">
@@ -613,7 +612,7 @@
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseFour"
                 >
-                  Accordion Item #4
+                  What is Box Model in CSS?
                 </button>
               </h2>
               <div
@@ -621,17 +620,7 @@
                 class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingFour"
               >
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
-                </div>
+                <div class="accordion-body">444444444444</div>
               </div>
             </div>
           </div>
@@ -695,7 +684,7 @@
     <!-- Footer Section Start-->
     <footer class="footer bg-dark">
       <div class="text-center text-white p-5">
-        <h2>CareerLend</h2>
+        <h1>CareerLend</h1>
         <p>
           Office 41, Zawaya Buildin, Ghala Muscat, <br />
           Sultanate of Oman
